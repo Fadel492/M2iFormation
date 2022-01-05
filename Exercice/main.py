@@ -1,3 +1,4 @@
+import numpy as np
 """
 Ecrire une classe qui permet de représenter un point dans un plan (abscisse, ordonnée)
 - Ecrire le constructeur
@@ -12,7 +13,9 @@ o Milieu ➔ x=(x1+x2)/2 , y=(y1+y2)/2
 
 """
 
+
 class point:
+
 
     def __init__(self,abcisse,ordonne):
         print("creation d'un point.......")
@@ -31,8 +34,21 @@ class point:
     def _setordonne(self,newordonne):
         self._Y=newordonne
 
+    def AdditionPoint(A,B):
+        pass
+        
+
+    def distance(pdebut,pfin):
+        return np.sqrt(np.pow(pfin.y-pdebut.y,2)+np.pow(pfin.x-pdebut.x,2))
+
 
 print("Lancement du programme...")
 
 A1=point(0,2)
-print(f"Creation du premier point d'abcisse {A1._X} et d'ordonnée {A1._Y}")
+B1=point(1,3)
+print(f"Creation du premier point A1 d'abcisse {A1._X} et d'ordonnée {A1._Y}")
+print(f"Creation du premier point A1 d'abcisse {B1._X} et d'ordonnée {B1._Y}")
+
+
+   
+
