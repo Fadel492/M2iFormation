@@ -5,7 +5,7 @@ import Point as P
 import Agenda as A
 import Compte as C
 import Person
-
+# import House as H
 # pt1 = P.Point(0, 2)
 # pt2 = P.Point(1, 3)
 # print(
@@ -41,14 +41,15 @@ import Person
 # # mon_agenda.tri_contact()
 # # mon_agenda.suprimer_contact()
 
-# fadel = Person.Person(15)
-# print("Hello veuillez creer un objet student")
-# age_fadel=fadel._age
+# fadel = Person.Person(15,"Hello")
 
+
+# age_fadel=fadel._age
 # Person.Student.go_to_classes(fadel)
-# print(age_fadel)
+# print(f"My age is {age_fadel}")
 
 # teacher = Person.Teacher(40)
 # teacher.expalin()
 # age_teacher=teacher._age
 # print(age_teacher)
+

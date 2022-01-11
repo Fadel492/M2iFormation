@@ -1,4 +1,5 @@
 class Person:
+
     """ 
     –Créez une classe «Person»
     –Créez une classe «Student» et une autre classe «Teacher», les deux héritent de la classe «Person».
@@ -13,13 +14,15 @@ class Person:
     –Créez un objet Teacher, 40 ans, demandez-lui de dire «Hello» puis commence l’explication.
     """
 
-    def __init__(self, _age):
-        self._age = _age
-
-    def get_age(self):
+    def __init__(self, age,message="Hello"):
+        self._age = age
+        self.message=message
+    @property
+    def age(self):
         return self._age
 
-    def set_age(self, value):
+    @age.setter
+    def age(self, value):
         self._age = value
 
 

@@ -31,7 +31,8 @@ print("hello word")
 * instance_var_name
 * function
 * parameter_name
-* local_var_name  
+* local_var_name 
+* file_name 
 
 ## Heritage + methode str et rpr
 
@@ -156,3 +157,19 @@ Troisattributs :
 -initialiser() : permet d'inscrire des joueurs dans la partie
 -lancer() : lance la partie : chaque joueur joue à tour de rôle pendant les n tours. Une fois lapartieterminée, affiche le gagnant.
 -afficher_gagnant() : compare les scores des joueurs et affiche le gagnant.Libre à vous de demander au lancement de la partie le nombre de dés, le nombre detours et lenom des participantsou de les définirdans le code
+
+## Agilite
+
+C'est une methode d'adaptation d'une equipe selon les besoin du client.
+
+* minimiser la dette technique
+* retour client plus client
+* rythme de livraison mensuelle ou hebdomadaire
+  
+  Le metier de DevOps est consequence d'agilite -> automatisation
+
+1- prioriser la satisfaction client (on l'implique de le developpment du logicielle)->augmente sa satisfaction
+2- accepter les changements (s'adapter au demande du client)
+3- Livrer en permanance une version 
+(Deux schema cycle iteratif + cycle semi iteratif)
+1 spring = 1 livrable retour client et retour case de depart
